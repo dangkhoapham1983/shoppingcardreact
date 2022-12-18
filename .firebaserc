@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "khoapham-ecommerce"
-  }
+    "default": "reactdb-f490d",
+    "staging": "reactdb-f490d"
+  },
+  "targets": {},
+  "etags": {}
 }
