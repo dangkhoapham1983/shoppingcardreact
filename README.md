@@ -2,12 +2,7 @@
 Simple ecommerce react js app with firebase [typescript].
 ![Firebase Deploy](https://github.com/jgudo/ecommerce-react/workflows/Firebase%20Deploy/badge.svg)
 
-### [Live demo](https://khoapham-ecommerce.web.app/)
-
-![khoapham screenshot](https://raw.githubusercontent.com/jgudo/ecommerce-react/master/static/screeny1.png)
-![khoapham screenshot](https://raw.githubusercontent.com/jgudo/ecommerce-react/master/static/screeny2.png)
-![khoapham screenshot](https://raw.githubusercontent.com/jgudo/ecommerce-react/master/static/screeny3.png)
-![khoapham screenshot](https://raw.githubusercontent.com/jgudo/ecommerce-react/master/static/screeny7.png)
+### [Live demo](https://reactdb-f490d.web.app/)
 
 ## Run Locally
 ### 1. Install Dependencies
