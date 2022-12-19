@@ -12,15 +12,14 @@ function App({ store, persistor, t, i18n })
 {
   return(
     <StrictMode>
-      <div className="App-header" style={{ display: 'flex' }}>
+      {/* <div className="App-header" style={{ display: 'flex' }}>
         <h2>{t('i18n')}</h2>
         <button onClick={() => changeLanguage('vn')}>vn</button>
         <button onClick={() => changeLanguage('en')}>en</button>
         <Trans>
           Hello
         </Trans>
-      </div>
-      
+      </div> */}
       <Provider store={store}>
         <PersistGate loading={<Preloader />} persistor={persistor}>
           <AppRouter />
