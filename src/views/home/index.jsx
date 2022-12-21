@@ -34,9 +34,9 @@ const Home = () => {
         <div className="banner">
           <div className="banner-desc">
             <h1 className="text-thin">
-              <strong>See</strong>
-              &nbsp;everything with&nbsp;
-              <strong>Clarity</strong>
+              <strong>Đồ</strong>
+              &nbsp;Ăn vặt&nbsp;
+              <strong>Online</strong>
             </h1>
             <p>
               Mua đồ ăn vặt sẽ khiến bạn vui vẻ và ưa nhìn, tiền rủng rỉnh trong túi. Nhu cầu ăn vặt giữa giờ hay vào xế chiều của dân công sở, các bạn học sinh, sinh viên ngày càng tăng cao. Tuy nhiên, vì đang trong giờ học, giờ làm, thời gian ăn uống hạn chế khiến họ khó có thể ra ngoài mua đồ nên dần hình thành thói quen đặt đồ ăn online trên mạng. Hơn nữa, vấn đề vệ sinh an toàn thực phẩm tại các hàng quán vỉa hè, các xe đẩy lề đường đang trở nên nhức nhối nên những người thích ăn vặt mong muốn tìm những địa chỉ bán đồ ăn vặt uy tín, ngon miệng, sạch sẽ để đặt hàng. 
