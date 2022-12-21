@@ -69,7 +69,7 @@ const ViewProduct = () => {
           <Link to={SHOP}>
             <h3 className="button-link d-inline-flex">
               <ArrowLeftOutlined />
-              &nbsp; Back to shop
+              &nbsp; Quay trở lại cửa hàng
             </h3>
           </Link>
           <div className="product-modal">
@@ -108,7 +108,7 @@ const ViewProduct = () => {
               <div className="divider" />
               <br />
               <div>
-                <span className="text-subtle">Lens Width and Frame Size</span>
+                <span className="text-subtle">Size</span>
                 <br />
                 <br />
                 <Select
@@ -121,7 +121,7 @@ const ViewProduct = () => {
               <br />
               {product.availableColors.length >= 1 && (
                 <div>
-                  <span className="text-subtle">Choose Color</span>
+                  <span className="text-subtle">Chọn màu</span>
                   <br />
                   <br />
                   <ColorChooser
@@ -144,7 +144,7 @@ const ViewProduct = () => {
           </div>
           <div style={{ marginTop: '10rem' }}>
             <div className="display-header">
-              <h1>Recommended</h1>
+              <h1>Khuyến khích</h1>
               <Link to={RECOMMENDED_PRODUCTS}>Tất cả</Link>
             </div>
             {errorFeatured && !isLoadingFeatured ? (
