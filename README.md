@@ -1,6 +1,6 @@
 # khoapham | E-commerce react app
 Simple ecommerce react js app with firebase [typescript].
-![Firebase Deploy](https://github.com/jgudo/ecommerce-react/workflows/Firebase%20Deploy/badge.svg)
+![Firebase Deploy](https://github.com/dangkhoapham1983/shoppingcardreact/workflows/Firebase%20Deploy/badge.svg)
 
 ### [Live demo](https://reactdb-f490d.web.app/)
 

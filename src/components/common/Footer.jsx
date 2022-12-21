@@ -33,7 +33,7 @@ const Footer = () => {
         <strong>
           <span>
             Fork this project &nbsp;
-            <a href="https://github.com/jgudo/ecommerce-react">HERE</a>
+            <a href="https://github.com/dangkhoapham1983/shoppingcardreact">HERE</a>
           </span>
         </strong>
       </div>
