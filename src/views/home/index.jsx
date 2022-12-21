@@ -5,7 +5,7 @@ import { FEATURED_PRODUCTS, RECOMMENDED_PRODUCTS, SHOP } from '@/constants/route
 import {
   useDocumentTitle, useFeaturedProducts, useRecommendedProducts, useScrollTop
 } from '@/hooks';
-import bannerImg from '@/images/banner-girl.png';
+import bannerImg from '@/images/do-an-vat-gia-si-1.jpg';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { withTranslation, Trans } from 'react-i18next';
