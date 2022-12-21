@@ -25,7 +25,7 @@ function* handleError(e) {
 
   switch (e.code) {
     case 'auth/network-request-failed':
-      yield put(setAuthStatus({ ...obj, message: 'Network error has occured. Please try again.' }));
+      yield put(setAuthStatus({ ...obj, message: 'Network error has occured. Please Thử lại.' }));
       break;
     case 'auth/email-already-in-use':
       yield put(setAuthStatus({ ...obj, message: 'Email is already in use. Please use another email' }));

@@ -17,7 +17,7 @@ const useFeaturedProducts = (itemsCount) => {
 
       if (docs.empty) {
         if (didMount) {
-          setError('No featured products found.');
+          setError('Không có sản phẩm nổi bật được tìm thấy.');
           setLoading(false);
         }
       } else {
@@ -35,7 +35,7 @@ const useFeaturedProducts = (itemsCount) => {
       }
     } catch (e) {
       if (didMount) {
-        setError('Failed to fetch featured products');
+        setError('Failed to fetch sản phẩm nổi bật');
         setLoading(false);
       }
     }

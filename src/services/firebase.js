@@ -131,7 +131,7 @@ class Firebase {
         } else {
           const timeout = setTimeout(() => {
             didTimeout = true;
-            reject(new Error("Request timeout, please try again"));
+            reject(new Error("Request timeout, please Thử lại"));
           }, 15000);
 
           try {
@@ -171,7 +171,7 @@ class Firebase {
 
         const timeout = setTimeout(() => {
           didTimeout = true;
-          reject(new Error("Request timeout, please try again"));
+          reject(new Error("Request timeout, please Thử lại"));
         }, 15000);
 
         try {

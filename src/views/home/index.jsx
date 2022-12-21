@@ -39,8 +39,7 @@ const Home = () => {
               <strong>Clarity</strong>
             </h1>
             <p>
-              Buying eyewear should leave you happy and good-looking, with money in your pocket.
-              Glasses, sunglasses, and contacts—we’ve got your eyes covered.
+              Mua đồ ăn vặt sẽ khiến bạn vui vẻ và ưa nhìn, tiền rủng rỉnh trong túi. Nhu cầu ăn vặt giữa giờ hay vào xế chiều của dân công sở, các bạn học sinh, sinh viên ngày càng tăng cao. Tuy nhiên, vì đang trong giờ học, giờ làm, thời gian ăn uống hạn chế khiến họ khó có thể ra ngoài mua đồ nên dần hình thành thói quen đặt đồ ăn online trên mạng. Hơn nữa, vấn đề vệ sinh an toàn thực phẩm tại các hàng quán vỉa hè, các xe đẩy lề đường đang trở nên nhức nhối nên những người thích ăn vặt mong muốn tìm những địa chỉ bán đồ ăn vặt uy tín, ngon miệng, sạch sẽ để đặt hàng. 
             </p>
             <br />
             <Link to={SHOP} className="button">
@@ -52,14 +51,14 @@ const Home = () => {
         </div>
         <div className="display">
           <div className="display-header">
-            <h1>Featured Products</h1>
-            <Link to={FEATURED_PRODUCTS}>See All</Link>
+            <h1>Sản phẩm đặc sắc</h1>
+            <Link to={FEATURED_PRODUCTS}>Tất cả</Link>
           </div>
           {(errorFeatured && !isLoadingFeatured) ? (
             <MessageDisplay
               message={errorFeatured}
               action={fetchFeaturedProducts}
-              buttonLabel="Try Again"
+              buttonLabel="Thử lại"
             />
           ) : (
             <ProductShowcaseGrid
@@ -70,14 +69,14 @@ const Home = () => {
         </div>
         <div className="display">
           <div className="display-header">
-            <h1>Recommended Products</h1>
-            <Link to={RECOMMENDED_PRODUCTS}>See All</Link>
+            <h1>Sản phẩm Khuyến khích</h1>
+            <Link to={RECOMMENDED_PRODUCTS}>Tất cả</Link>
           </div>
           {(errorRecommended && !isLoadingRecommended) ? (
             <MessageDisplay
               message={errorRecommended}
               action={fetchRecommendedProducts}
-              buttonLabel="Try Again"
+              buttonLabel="Thử lại"
             />
           ) : (
             <ProductShowcaseGrid

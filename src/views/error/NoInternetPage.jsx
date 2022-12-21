@@ -7,14 +7,14 @@ const NoInternet = () => {
   return (
     <div className="page-not-found">
       <h1>:( No Internet Connection.</h1>
-      <p>Please check you network connectivity and try again.</p>
+      <p>Vui lòng kiểm tra kết nối mạng của bạn và Thử lại.</p>
       <br />
       <button
         className="button"
         onClick={() => window.location.reload(true)}
         type="button"
       >
-        Try Again
+        Thử lại
       </button>
     </div>
 

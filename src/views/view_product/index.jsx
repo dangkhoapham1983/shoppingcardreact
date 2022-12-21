@@ -145,13 +145,13 @@ const ViewProduct = () => {
           <div style={{ marginTop: '10rem' }}>
             <div className="display-header">
               <h1>Recommended</h1>
-              <Link to={RECOMMENDED_PRODUCTS}>See All</Link>
+              <Link to={RECOMMENDED_PRODUCTS}>Tất cả</Link>
             </div>
             {errorFeatured && !isLoadingFeatured ? (
               <MessageDisplay
                 message={error}
                 action={fetchRecommendedProducts}
-                buttonLabel="Try Again"
+                buttonLabel="Thử lại"
               />
             ) : (
               <ProductShowcaseGrid products={recommendedProducts} skeletonCount={3} />
